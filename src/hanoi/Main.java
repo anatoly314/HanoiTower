@@ -3,7 +3,6 @@ package hanoi;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		HanoiGame game = new HanoiGame(4);
 //		game.addStep(1, 2);
 //		game.addStep(0, 1);
