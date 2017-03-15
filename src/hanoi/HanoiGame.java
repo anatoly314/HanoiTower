@@ -166,7 +166,7 @@ public class HanoiGame {
         	}
         }
         
-		frame = new JFrame("Absolute Layout Example");
+		frame = new JFrame("HanoiTower - algorithm visualization");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel contentPane = new JPanel();
