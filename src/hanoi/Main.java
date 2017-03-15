@@ -4,8 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		HanoiGame game = new HanoiGame(4);
-//		game.addStep(1, 2);
 //		game.addStep(0, 1);
+//		game.addStep(0, 2);
 //		game.addStep(1, 2);
 //		game.addStep(0, 1);
 //		game.addStep(2, 0);
