@@ -7,7 +7,7 @@ A simple GUI app to visualize how HanoiTower solving algorithm is working
 
 [Runnable jar can be downloaded from here](https://github.com/anatoly314/HanoiTower/releases/tag/0.1)
 
-It can be invoked manually by adding all the steps:
+- **It can be invoked manually by adding all the steps**:
 
 ````
 public static void main(String[] args) {
@@ -23,16 +23,13 @@ public static void main(String[] args) {
 	}
 ````
 
-Or it can be invoked by your own algorithm which which calculate required steps:
+- **Or it can be invoked by your own algorithm which which calculate required steps**:
 
 ````
-public static void main(String[] args) {
+    public static void main(String[] args) {
 		HanoiGame game = new HanoiGame(4);
 		solveHanoi(game, 4, 0, 1, 2);
-
-
 	}
-	
 	
 	public static void solveHanoi(HanoiGame game, int n, int start, int aux, int end){
 		if(n == 1){
