@@ -292,6 +292,7 @@ public class HanoiGame {
         abstract void performNextStepCallback();
     }
 	
+	
 	private void moveDisk(JLabel disk, int diskIndexInSourceModel, int destinationBarIndex, int topDiskIndexInDestinationModel, boolean performAllSteps){		
 		Point to = HanoiGuiFactory.calculateDiskLocation(disk, topDiskIndexInDestinationModel + 1, destinationBarIndex);
 		HanoiGuiFactory.animateMovement(disk, to, new MovementCompletedCallback(performAllSteps) {
