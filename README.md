@@ -5,8 +5,6 @@ A simple GUI app to visualize how HanoiTower solving algorithm is working
 ![Preview](https://github.com/anatoly314/HanoiTower/blob/master/hanoitower.gif)
 
 
-[Runnable jar can be downloaded from here](https://github.com/anatoly314/HanoiTower/releases/tag/0.1)
-
 - **It can be invoked manually by adding all the steps**:
 
 ````
@@ -41,3 +39,5 @@ public static void main(String[] args) {
 		}
 	}
 ````
+
+- [Runnable jar can be downloaded from here](https://github.com/anatoly314/HanoiTower/releases/tag/0.1)
